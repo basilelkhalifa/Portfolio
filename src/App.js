@@ -1,17 +1,12 @@
 import React from "react";
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
+import DesktopContainer from "./components/Desktop/DesktopContainer";
+import "./index.css";
 
 export default function App() {
   return (
     <Box>
-      <Typography
-        sx={{
-          position: "absolute",
-        }}
-        variant="h1"
-      >
-        UNDER CONSTRUCTION
-      </Typography>
+      <DesktopContainer />
     </Box>
   );
 }
