@@ -7,6 +7,13 @@ const useStyles = makeStyles({
     backgroundSize: "cover",
     height: "100vh",
     width: "100vw",
+    position: "relative",
+  },
+
+  taskbarContainer: {
+    position: "absolute",
+    left: 0,
+    bottom: 0,
   },
 });
 
