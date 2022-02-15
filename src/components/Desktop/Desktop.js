@@ -3,12 +3,14 @@ import { Box } from "@mui/material";
 import useStyles from "./style";
 import TaskbarContainer from "../Taskbar/TaskbarContainer";
 import FolderContainer from "../Folder/FolderContainer";
+import TextFileContainer from "../File/TextFileContainer";
 
 export default function Desktop() {
   const classes = useStyles();
   return (
     <Box className={classes.mainContainer}>
       <FolderContainer title="Projects" />
+      <TextFileContainer title="Projects" />
       <Box className={classes.taskbarContainer}>
         <TaskbarContainer />
       </Box>
