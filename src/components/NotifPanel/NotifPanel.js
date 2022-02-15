@@ -4,7 +4,7 @@ import useStyles from "./style";
 import soundIcon from "../../assets/icons/audio-volume-muted.png";
 import battery from "../../assets/icons/notification-power.png";
 
-export default function NotifPanel() {
+export default function NotifPanel(props) {
   const classes = useStyles();
   return (
     <Box className={classes.mainContainer}>
@@ -14,7 +14,7 @@ export default function NotifPanel() {
       </Box>
       <Box className={classes.timeContainer}>
         <Typography variant="caption" color="white">
-          11:00 AM
+          {props.currentTime}
         </Typography>
       </Box>
     </Box>
