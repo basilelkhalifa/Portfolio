@@ -3,7 +3,7 @@ import { Box, Typography } from "@mui/material";
 import useStyles from "./style";
 import logo from "../../assets/windowsLogo.png";
 
-export default function StartMenu() {
+export default function StartButton() {
   const classes = useStyles();
   return (
     <button className={classes.mainContainer}>
